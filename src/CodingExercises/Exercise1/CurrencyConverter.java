@@ -1,4 +1,4 @@
-package Section3.Assignments.Assignment1;
+package CodingExercises.Exercise1;
 /*
  * 
  */
