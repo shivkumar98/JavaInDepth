@@ -4,7 +4,7 @@ package Section3.demos.constructorOverloadingDemo;
 public class Student {
 	static int studentCount;
 	
-	int id;
+	private int id;
 	String name;
 	String gender;
 	int age;
@@ -22,7 +22,7 @@ public class Student {
 	Student( int id, String name, String gender, int age, long phone, double gpa, char degree){
 		this(id, name, gender, age, phone,gpa,degree, false);
 	}
-	Student( int id, String name, String gender, int age, long phone, double gpa, char degree, boolean international){
+	public Student( int id, String name, String gender, int age, long phone, double gpa, char degree, boolean international){
 		this.id = id;
 		this.name = name;
 		this.age = age;
