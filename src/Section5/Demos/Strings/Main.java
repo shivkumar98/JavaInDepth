@@ -43,6 +43,10 @@ public class Main {
 		
 		System.out.println(s.split("o")); // [Ljava.lang.String;@6504e3b2
 		Arrays.stream(s.split("o")).forEach(System.out::println); // [Hell, w, rld]
+		
+		System.out.println("-----------------");
+		
+		
 	} 
 
 }

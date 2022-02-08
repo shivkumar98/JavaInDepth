@@ -63,8 +63,6 @@ public class IRUtil {
     	
     	return (double) frequencyCount / totalTermCount;
 
-    
-
     }
 	
 	public static void main(String[] args) {
