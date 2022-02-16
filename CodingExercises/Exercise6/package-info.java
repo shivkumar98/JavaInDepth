@@ -1,1 +1,0 @@
-package CodingExercises.Exercise6;
