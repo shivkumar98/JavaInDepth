@@ -1,4 +1,4 @@
-package CodingExercises.Exercise8;
+package CodingExercises.Exercise9;
 
 public class User {
 	private long id;
@@ -7,7 +7,8 @@ public class User {
 	private String gender;
 	private String email;
 	private boolean insured;
-
+	private int age;
+	private boolean smokes;
 	private HealthInsurancePlan insurancePlan;
 
 	
@@ -16,8 +17,18 @@ public class User {
 	public HealthInsurancePlan getInsurancePlan() {
 		return insurancePlan;
 	}
-
-	
+	public int getAge() {
+		return age;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
+	public boolean isSmokes() {
+		return smokes;
+	}
+	public void setSmokes(boolean smokes) {
+		this.smokes = smokes;
+	}
 	public void setInsurancePlan(HealthInsurancePlan insurancePlan) {
 		this.insurancePlan = insurancePlan;
 	}

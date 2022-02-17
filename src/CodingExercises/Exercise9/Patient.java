@@ -1,4 +1,4 @@
-package CodingExercises.Exercise8;
+package CodingExercises.Exercise9;
 
 
 public class Patient extends User {
